@@ -12,6 +12,10 @@
 		0F807D171DEFD38C002C0262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D151DEFD38C002C0262 /* Main.storyboard */; };
 		0F807D191DEFD38C002C0262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D181DEFD38C002C0262 /* Assets.xcassets */; };
 		0F807D1C1DEFD38C002C0262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D1A1DEFD38C002C0262 /* LaunchScreen.storyboard */; };
+		0F807D241DEFD3E5002C0262 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807D231DEFD3E5002C0262 /* SecondViewController.swift */; };
+		0F807D281DEFD768002C0262 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D251DEFD768002C0262 /* 2.PNG */; };
+		0F807D291DEFD768002C0262 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D261DEFD768002C0262 /* 3.PNG */; };
+		0F807D2A1DEFD768002C0262 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0F807D271DEFD768002C0262 /* 1.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		0F807D181DEFD38C002C0262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F807D1B1DEFD38C002C0262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F807D1D1DEFD38C002C0262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F807D231DEFD3E5002C0262 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0F807D251DEFD768002C0262 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		0F807D261DEFD768002C0262 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
+		0F807D271DEFD768002C0262 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				0F807D111DEFD38C002C0262 /* AppDelegate.swift */,
 				0F807D131DEFD38C002C0262 /* ViewController.swift */,
 				0F807D151DEFD38C002C0262 /* Main.storyboard */,
+				0F807D231DEFD3E5002C0262 /* SecondViewController.swift */,
 				0F807D181DEFD38C002C0262 /* Assets.xcassets */,
 				0F807D1A1DEFD38C002C0262 /* LaunchScreen.storyboard */,
 				0F807D1D1DEFD38C002C0262 /* Info.plist */,
+				0F807D271DEFD768002C0262 /* 1.PNG */,
+				0F807D251DEFD768002C0262 /* 2.PNG */,
+				0F807D261DEFD768002C0262 /* 3.PNG */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					0F807D0D1DEFD38C002C0262 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -122,9 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F807D281DEFD768002C0262 /* 2.PNG in Resources */,
+				0F807D291DEFD768002C0262 /* 3.PNG in Resources */,
 				0F807D1C1DEFD38C002C0262 /* LaunchScreen.storyboard in Resources */,
 				0F807D191DEFD38C002C0262 /* Assets.xcassets in Resources */,
 				0F807D171DEFD38C002C0262 /* Main.storyboard in Resources */,
+				0F807D2A1DEFD768002C0262 /* 1.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F807D241DEFD3E5002C0262 /* SecondViewController.swift in Sources */,
 				0F807D141DEFD38C002C0262 /* ViewController.swift in Sources */,
 				0F807D121DEFD38C002C0262 /* AppDelegate.swift in Sources */,
 			);
@@ -251,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shabby923.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -262,6 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.shabby923.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -284,6 +303,7 @@
 				0F807D221DEFD38C002C0262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
